@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+
+.min-vh-60{
+  min-height: 50vh!important;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.h2-mb-1 {
+  margin-bottom: 1rem!important;
+}
+
+.loading {
+  height: 5px;
+  background-color: #acc9e8;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.loading-complete-appear {
+  opacity: 0.01;
+}
+
+.loading-complete-appear.loading-complete-appear-active {
+  opacity: 1;
+  transition: opacity .25s ease-in;
+}
+
+.card-header {
+  padding: .85rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #acc9e8;
+  border-bottom: 1px solid #acc9e8;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-body {
+  border: 1px solid #ffffff;
+  padding: 1.50rem;
+  background-color: #ffffff;
+}
+
+.card-footer {
+  background-color: #ffffff;
+  border: none;
+  padding: 0.25rem 1rem;
+}
+
+.btn {
+  background-color: #acc9e8;
+  border: 1px solid #acc9e8;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #acc9e8;
+  border: 1px solid #acc9e8;
+}
+
+.navigationBar {
+  background-color: #acc9e8;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.selectedVote {
+  color: #ffffff;
+  font-size: small;
+  background-color: #ffc107;
+  padding: 0.25rem;
+  border-radius: .25rem;
+}
+
+.scores {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
